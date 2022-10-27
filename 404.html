@@ -1,0 +1,9 @@
+<script>
+  let path = location.href;
+  localStorage.setItem(
+    "path",
+    path.replace("https://ahmmedimtiaz.com", "")
+  );
+
+  window.location.href = "https://ahmmedimtiaz.com";
+</script>
